@@ -4,10 +4,30 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background: #222;
-  background-image: url('https://source.unsplash.com/1600x900/?landscape');
+  background-image: url("https://source.unsplash.com/1600x900/?landscape");
   font-size: 120%;
+}
+
+.logo {
+  cursor: pointer;
+  position: absolute;
+  top: 18px;
+  right: 150px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-size: 2.5em;
+  box-shadow: inset 0 -0.25em hsl(55, 100%, 75%);
+}
+
+.logo span {
+  color: white;
+}
+
+.logo a {
+  box-shadow: inset 0 -0.25em hsl(55, 100%, 75%);
 }
 
 .card {
