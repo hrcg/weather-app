@@ -1,19 +1,14 @@
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   height: 100vh;
   margin: 0;
   font-family: "Open Sans", sans-serif;
   background: #222;
   background-image: url("https://source.unsplash.com/1600x900/?landscape");
   background-size: cover;
+
   background-repeat: no-repeat;
   font-size: 120%;
 }
@@ -30,15 +25,9 @@ body {
 }
 
 .search {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 button {
@@ -51,7 +40,6 @@ button {
   background: #7c7c7c2b;
   color: white;
   cursor: pointer;
-  -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
 }
 
@@ -83,23 +71,17 @@ h2 {
 }
 
 .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .description {
   text-transform: capitalize;
   margin-left: 8px;
 }
-
 .weather {
   margin-left: 5%;
 }
-
 .weather.loading {
   visibility: hidden;
   max-height: 20px;
@@ -114,4 +96,3 @@ h2 {
   top: 0;
   left: 20px;
 }
-/*# sourceMappingURL=main.css.map */
